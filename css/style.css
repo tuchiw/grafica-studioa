@@ -79,9 +79,6 @@ a{
 	font-weight: 800;	
 }
 
-.botonera-color{
-	color: 
-}
 
 .botonera ul li a:hover{
 	color: rgba(11, 75, 165, 1);
@@ -189,8 +186,8 @@ a{
 		color: #058BD3;
 	}
 
-}
 
+}
 /* termina animaciones */
 
 	
@@ -376,7 +373,7 @@ a{
 		grid-template-areas: "header" "main" "footer";  
 	}
 
-/*--inicio Pie Mobile 320px--*/
+ /*--inicio Pie Mobile 320px--*/
  
 .pie{
 	width: 100vw;

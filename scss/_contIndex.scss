@@ -1,0 +1,66 @@
+.inicio{
+	background-color: $inicioColor;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.inicioTetx{
+	background-color: $inicioColor;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1.5em;
+}
+
+.textValores{
+	background-color:$inicioColor;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-content: ceneter;
+}
+
+
+.inicio section{
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.imgNosotros{
+	width: 90vw;
+}
+
+/* animaciones */
+
+.color{
+	animation-name: escala;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-iteration-count:infinite; 
+
+}
+
+@keyframes escala{
+	0%{
+		color: $keyframeColor1;
+
+	}
+
+	50%{
+		color:$keyframeColor2;
+
+	}
+ 	100%{
+		color:$keyframeColor3;
+	}
+
+
+}
+
+
