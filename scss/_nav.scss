@@ -1,5 +1,5 @@
 .botonera{
-	background:$bgNav;
+	background: map-get($map:$paletcolor,$key:'uno');
 	width: 100vw;
 	position: sticky;
 	top: 0;

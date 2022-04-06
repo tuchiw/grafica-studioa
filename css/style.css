@@ -329,8 +329,8 @@ a{
 
 /* TERMINA ANIMACION */
 
-
 /*------------------Fin Contacto Mobile----------------*/
+
 /*------------------Inicio Ploteados Mobile----------------*/
 .imgPloteados{
 	width: 100vw;
@@ -363,7 +363,7 @@ a{
 	width: 60vw;
 }
 
-
+/* --------------fin insumos Mobile------------------- */
 /*---------------Inicio contacto Movile 320px----------------*/
 @media (min-width: 320px){
 	.contenedor{

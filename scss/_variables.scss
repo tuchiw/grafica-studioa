@@ -11,3 +11,29 @@ $footerColor:#EE3F3F;
 //texto//
 $botoneraTextSize: 1.4rem;
 $footerTextSize: 3rem;
+
+// map //
+$paletcolor:(
+    'uno': #EE3F3F,
+    'dos': rgba(11, 75, 165, 1),
+    'tres': rgba(253, 253, 253, 1),
+    'cuatro': #000,
+    'cinco': #EE3F3F,
+    'seis': #058BD3,
+    'siete': #EE3F3F,);
+
+//mixin//
+@mixin contact ($width, $display, $flex-direction, $alaing-items, $justify-content)
+{
+		width: $width;
+		display: $display;
+		flex-direction: $flex-direction;
+		align-items: $alaing-items;
+		justify-content: $justify-content;
+	}
+
+//extend//
+
+
+
+
