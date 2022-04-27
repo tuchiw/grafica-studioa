@@ -296,29 +296,26 @@ a {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "header" "main" "footer"; } }
-
-/*--inicio Pie Mobile 320px--*/
-.pie {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem; }
-
-.pie div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center; }
-
-.pie div div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-items: center; }
+    grid-template-areas: "header" "main" "footer"; }
+  /*--inicio Pie Mobile 320px--*/
+  .pie {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem; }
+  .pie div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center; }
+  .pie div div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center; } }
 
 /*--fin Pie Mobile--*/
 /*----------------Inicio contacto 768PX----------------*/
@@ -326,90 +323,160 @@ a {
   .contenedor {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
-    grid-template-areas: "header" "main" "footer"; } }
-
-/*--inicio Pie 768px--*/
-.pie {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
-
-/*--fin Pie Mobile--*/
-/*--inicio Quienes Somos 768px--*/
-.textValores {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center; }
-
-/*--inicio nosotros 768px--*/
-.contacto section {
-  width: 99%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around; }
-
-.contacto section div {
-  padding-top: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: space-around; }
-
-.img--size {
-  width: 60vw;
-  height: 60rem; }
-
-/*--inicio Ploteaos 768px--*/
-.imgPloteados {
-  width: 100vw;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around; }
-
-.imgPloteados img {
-  width: 40vw; }
-
-/*--fin Ploteaos 768px--*/
-.insumos section {
-  width: 100vw;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around; }
-
-.insumos img {
-  width: 45vw; }
+    grid-template-areas: "header" "main" "footer"; }
+  /*--inicio Pie 768px--*/
+  .pie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  /*--fin Pie Mobile--*/
+  /*--inicio Quienes Somos 768px--*/
+  .textValores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center; }
+  /*--inicio nosotros 768px--*/
+  .contacto section {
+    width: 99%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; }
+  .contacto section div {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: space-around; }
+  .img--size {
+    width: 60vw;
+    height: 60rem; }
+  /*--inicio Ploteaos 768px--*/
+  .imgPloteados {
+    width: 100vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; }
+  .imgPloteados img {
+    width: 40vw; }
+  /*--fin Ploteaos 768px--*/
+  .insumos section {
+    width: 100vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; }
+  .insumos img {
+    width: 45vw; } }
 
 /*----------------Inicio contacto 1020PX----------------*/
 @media (min-width: 1024px) {
   .contenedor {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, auto);
+    grid-template-areas: "header"  "main" "footer"; }
+  .inicio section {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+  .inicio section h2 {
+    font-size: 4rem;
+    padding: 0 2rem; }
+  p {
+    font-size: 1.5rem;
+    padding: 0 2rem; }
+  .imgNosotros {
+    width: 46rem;
+    height: 57rem;
+    padding: 0 2rem; }
+  .insumos img {
+    width: 30vw; }
+  /*----------------Inicio contacto 768PX----------------*/ }
+
+@media (min-width: 1024px) and (min-width: 768px) {
+  .contenedor {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "header" "main" "footer"; } }
+
+@media (min-width: 1024px) {
+  /*--inicio Pie 768px--*/
+  .pie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  /*--fin Pie Mobile--*/
+  /*--inicio Quienes Somos 768px--*/
+  .textValores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center; }
+  /*--inicio nosotros 768px--*/
+  .contacto section {
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; }
+  .contacto section div {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: space-around; }
+  .img--size {
+    width: 60vw;
+    height: 60rem; }
+  /*--inicio Ploteaos 768px--*/
+  .imgPloteados {
+    width: 100vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; }
+  .imgPloteados img {
+    width: 40vw; }
+  /*--fin Ploteaos 768px--*/
+  .insumos section {
+    width: 100vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; }
+  .insumos img {
+    width: 45vw; }
+  /*----------------Inicio contacto 1020PX----------------*/ }
+
+@media (min-width: 1024px) and (min-width: 1024px) {
+  .contenedor {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
     grid-template-areas: "header"  "main" "footer"; } }
 
-.inicio section {
-  width: 90vw;
-  display: flex;
-  flex-direction: row;
-  align-items: center; }
-
-.inicio section h2 {
-  font-size: 4rem;
-  padding: 0 2rem; }
-
-p {
-  font-size: 1.5rem;
-  padding: 0 2rem; }
-
-.imgNosotros {
-  width: 46rem;
-  height: 57rem;
-  padding: 0 2rem; }
-
-.insumos img {
-  width: 30vw; }
+@media (min-width: 1024px) {
+  .inicio section {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+  .inicio section h2 {
+    font-size: 4rem;
+    padding: 0 2rem; }
+  p {
+    font-size: 1.5rem;
+    padding: 0 2rem; }
+  .imgNosotros {
+    width: 46rem;
+    height: 57rem;
+    padding: 0 2rem; }
+  .insumos img {
+    width: 30vw; } }
